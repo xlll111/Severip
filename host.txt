@@ -1,4 +1,4 @@
-frp-end.top
-frp-bar.top
-748bu48tq748.vicp.fun
-ddns.xlll.us.kg
+frp-end.top:11
+frp-bar.top:11
+748bu48tq748.vicp.fun:11
+ddns.xlll.us.kg:11
