@@ -1,8 +1,5 @@
-﻿Write-Host "正在获取最新主机"
-Write-Host "正在获取//xlll111.github.io/Severip/host.txt"
-$url = 'https://xlll111.github.io/Severip/host.txt'
-$response = Invoke-WebRequest -Uri $url
-$hosts = $response.Content.Split([Environment]::NewLine)
+$hostsFilePath = Join-Path ([System.IO.Path]::GetTempPath()) "host.txt"
+$hosts = Get-Content $hostsFilePath
 $results = @{}
 Write-Host "获取完成"
 Write-Host "开始PING"
